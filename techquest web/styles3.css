@@ -1,0 +1,281 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #D4AF37; /* Gold font color for all text */
+}
+
+/* Custom Navbar Color, Texture, Shadow */
+.navbar-custom {
+    background-color: #1F50A5;
+    background-image: url('https://www.transparenttextures.com/patterns/black-paper.png'); /* Subtle texture */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Navbar Brand */
+.navbar-custom .navbar-brand {
+    color: #D4AF37; /* Gold font color */
+    font-size: 2rem; /* Increase font size */
+    font-weight: 700; /* Increase font weight for emphasis */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add text shadow for better contrast */
+}
+
+/* Ensure the hover state also has a shadow */
+.navbar-custom .navbar-brand:hover {
+    color: #b8860b; /* Darker shade of gold on hover */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Maintain shadow on hover */
+}
+
+
+/* Navbar Logo */
+.navbar-logo {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Space between logo and text */
+    margin-left: -15px; /* Adjust this value to move the logo further left */
+    vertical-align: middle; /* Aligns the logo vertically with the text */
+}
+
+
+/* Custom Navbar Button Styles */
+.navbar-nav .nav-link {
+    padding: 10px 20px; /* Increased padding for larger buttons */
+    font-size: 1.1rem; /* Increased font size */
+    border-radius: 25px; /* Rounded edges for buttons */
+    color: #D4AF37; /* Gold text color */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    color: #b8860b; /* Darker shade of gold on hover */
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero {
+    height: 80vh; /* Adjust the height if needed */
+    overflow: hidden; /* Ensure any overflow is hidden */
+    border-bottom: 5px solid #D4AF37; /* Gold border */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    height: 80vh; /* Ensure images fill the height */
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh; /* Adjust the height if needed */
+    overflow: hidden; /* Ensure any overflow is hidden */
+    position: relative; /* Ensure positioning context for the caption */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    height: 80vh; /* Ensure images fill the height */
+}
+
+/* Carousel Caption */
+.carousel-caption {
+    position: absolute; /* Position the caption */
+    top: 50%; /* Center it vertically */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Offset by half width and height */
+    color: #D4AF37; /* Gold font color for captions */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Enhanced shadow for better contrast */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 40px 30px; /* Increase padding for more space */
+    border-radius: 10px; /* Rounded corners for the overlay */
+    text-align: center; /* Center the text */
+    width: 90%; /* Optional: Set a max width to control size */
+    max-width: 800px; /* Optional: Limit the maximum width */
+}
+
+/* Updated font sizes for better visibility */
+.carousel-caption h1 {
+    font-size: 4rem; /* Larger font size for the heading */
+    font-weight: 700; /* Bold weight for emphasis */
+}
+
+.carousel-caption p {
+    font-size: 2rem; /* Larger font size for the paragraph */
+    line-height: 1.5; /* Increased line height for readability */
+}
+
+/* Adjust Button Styles */
+.btn-primary {
+    padding: 12px 30px; /* Adjust padding */
+    border-radius: 50px; /* Rounded button */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-top: 20px; /* Adjust margin for consistency */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Button hover color */
+    transform: scale(1.05); /* Button hover effect */
+}
+
+
+
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary, .btn-success {
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #0056b3; /* Adjusted for primary */
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hover effect */
+}
+
+
+/* About Section */
+#about {
+    background: linear-gradient(to right, rgba(0, 51, 102, 0.7), rgba(0, 102, 153, 0.7)), 
+    url('https://www.transparenttextures.com/patterns/digital-paper.png'); /* Gradient with abstract digital texture */
+background-size: cover; /* Ensure the texture covers the entire area */
+background-blend-mode: overlay; /* Blend the gradient and texture */
+padding: 50px 0; /* Add padding for spacing */
+color: #D4AF37; /* Gold font color for text */
+
+    border-bottom: 5px solid #D4AF37; /* Gold border */
+}
+
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #D4AF37; /* Gold font color for headings */
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Download Section */
+#download {
+    background: linear-gradient(to right, rgba(0, 51, 102, 0.7), rgba(0, 102, 153, 0.7)), 
+    url('https://www.transparenttextures.com/patterns/digital-paper.png'); /* Gradient with abstract digital texture */
+    background-size: cover; /* Ensure the texture covers the entire area */
+    background-blend-mode: overlay; /* Blend the gradient and texture */
+    padding: 50px 0; /* Add padding for spacing */
+    border-bottom: 5px solid #D4AF37; /* Gold border */
+
+}
+
+#download h2 {
+    color: #D4AF37; /* Gold font color for headings */
+}
+
+#download p {
+    font-size: 1.2rem;
+    color: #D4AF37; /* Gold font color for paragraph text */
+}
+
+.btn-success {
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+#survey {
+    background-color: #f9f9f9; /* Light background */
+    padding: 50px 0; /* Padding for spacing */
+}
+
+#survey h2 {
+    font-size: 2.5rem;
+    color: #D4AF37; /* Gold font color */
+}
+
+#survey p {
+    font-size: 1.2rem;
+    color: #333; /* Darker text color */
+}
+
+#survey .btn-primary {
+    background-color: #D4AF37; /* Gold button color */
+    border-color: #D4AF37;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#survey .btn-primary:hover {
+    background-color: #b8860b; /* Darker gold on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(to right, rgba(0, 51, 102, 0.7), rgba(0, 102, 153, 0.7)), 
+    url('https://www.transparenttextures.com/patterns/digital-paper.png'); /* Gradient with abstract digital texture */
+background-size: cover; /* Ensure the texture covers the entire area */
+background-blend-mode: overlay; /* Blend the gradient and texture */
+padding: 50px 0; /* Add padding for spacing */
+    border-bottom: 5px solid #D4AF37; /* Gold border */
+
+}
+
+#contact h2 {
+    color: #D4AF37; /* Gold font color for headings */
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #D4AF37; /* Gold font color for paragraph text */
+}
+
+#contact ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+#contact li {
+    font-size: 1.2rem; /* Adjust font size for readability */
+    color: #D4AF37; /* Gold font color */
+    margin: 10px 0; /* Space between list items */
+}
+
+#contact a {
+    color: #D4AF37; /* Gold color for links */
+    text-decoration: underline; /* Underline for links */
+}
+
+#contact a:hover {
+    color: #b8860b; /* Darker gold on hover */
+}
+
+
+/* Footer */
+footer {
+    background-color: #2D2D2D; /* Darker background */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #D4AF37; /* Gold font color for footer text */
+}
